@@ -4,3 +4,27 @@ $base-font-size: 13px;
 $base-line-height: 24px;
 @include establish-baseline();
 
+$color1: #B03B01; // header color
+$color2: #075899; // link color
+$color3: #fff; // header color
+$color4: #6a1800; //sprite button color
+$color5: #075899; // product link color
+$color6: #ff3333; //product price color
+
+$font_family2: "trebuchet MS", Arial, Helvetica, sans-serif;
+
+// btn
+$grad1: -webkit-linear-gradient(top, hsl(50%, 100%, 50%), #043059);
+$box_shadow: 5px 5px 10px 10px #545454;
+$border1: 1px solid #656669;
+$spacing: 1em;
+$text_color: #fff;
+$text_shadow: #2C465E ;
+$font_family: Arial, Helvetica, sans-serif;
+$h3_size: 2em;
+$link_color: #fff;
+
+$font_size: 14px;
+$border2: 2px 2px 1px 1px solid #000;
+$color5: #2C5C5E;
+$color6: #2C5E2E;

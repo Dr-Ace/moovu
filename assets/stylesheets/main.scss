@@ -1,6 +1,9 @@
 // Reset file for standardizing the page
 // @import "globals/_reset";
 
+
+@import "globals/_sprites";
+
 // Import Bourbon
 @import "globals/bourbon/_bourbon.scss";
 
@@ -17,8 +20,8 @@
 @import "globals/_base.scss";
 
 // Header & Footer
-@import "sections/_header";
-@import "sections/_footer";
+@import "sections/_header.scss";
+@import "sections/_footer.scss";
 
 // Pages
-@import "pages/_home";
+@import "pages/_home.scss";

@@ -14,6 +14,9 @@ match(inferred_content_type()) {
 
     replace(/fbn_/, "fb:") # Rewrite the xmlns facebook nodes to restore them
   }
+  with(/sample-product/){
+    log("--> Importing pages/categories.ts in mappings.ts")
+  }
   # with(/javascript/) {
   #   @import ajax.ts
   # }

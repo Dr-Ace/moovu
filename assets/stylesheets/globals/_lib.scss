@@ -1,7 +1,25 @@
-@mixin bar {
-
+@mixin bar-red {
+  @include background(linear-gradient(top, #852201, #6a1b00));
 }
 
-@mixin btn {
-  
+@mixin btn1 {
+  background-color: transparent;
+  @include background($grad1);
+  @include box-shadow($box_shadow);
+  border: $border1;
+  height: 40px;
+  padding: $spacing;
+  color: $text_color;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: $text_shadow;
+  text-align: center;
+  font-family: $font_family;
+  font-size: $h3_size;
+  font-weight: bold;
+  a {
+    display: block;
+    width: 100%;
+    color: $link_color;
+  }
 }

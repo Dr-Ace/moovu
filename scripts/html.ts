@@ -15,11 +15,12 @@ $("/html") {
 
   # Late load all the images on the site
   # lateload()
+
+  # add main.scss
+  add_mobile_stylesheet()
   
 
-
-
-  add_assets()
+  # add_assets()
 
   @import sections/header.ts
   @import sections/footer.ts
