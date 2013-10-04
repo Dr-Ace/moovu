@@ -5,6 +5,7 @@
 # }
 
 $(".//div[@id='Header']") {
+	attribute("data-ur-set", "toggler")
 	$("./div[@id='Logo']") {
 		move_here("../../../div[@id='TopMenu']", "bottom"){
 			remove(".//li[not(contains (@class, 'CartLink') or contains(@class, 'First'))]")

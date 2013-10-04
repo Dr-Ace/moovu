@@ -18,6 +18,7 @@ $("/html") {
 
   # add main.scss
   add_mobile_stylesheet()
+  add_assets()
   
 
   # add_assets()
